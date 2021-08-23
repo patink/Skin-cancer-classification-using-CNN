@@ -99,7 +99,7 @@ df_4 = skin_df[skin_df['label'] == 4]
 df_5 = skin_df[skin_df['label'] == 5]
 df_6 = skin_df[skin_df['label'] == 6]
 
-n_samples=6705
+n_samples=1000
 df_0_balanced = resample(df_0, replace=True, n_samples=n_samples, random_state=42) 
 df_1_balanced = resample(df_1, replace=True, n_samples=n_samples, random_state=42) 
 df_2_balanced = resample(df_2, replace=True, n_samples=n_samples, random_state=42)
