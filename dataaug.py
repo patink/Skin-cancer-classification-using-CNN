@@ -6,11 +6,7 @@ datagen = ImageDataGenerator(
     rotation_range = 40,
     width_shift_range = 0.2,
     height_shift_range = 0.2,
-    rescale = 1./255,
-    shear_range = 0.2,
-    zoom_range = 0.2,
-    horizontal_flip = True,
-    fill_mode = 'nearest')
+    
 #class 3
 pic = load_img('C:/Users/lenovo/Desktop/ARCHIVE/HAM10000_images_part_1/ISIC_0029297.jpg')
 pic.getpixel
